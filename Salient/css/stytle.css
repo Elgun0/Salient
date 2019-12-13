@@ -1,0 +1,261 @@
+#header {
+  background: transparent;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#header .menu li {
+  color: #d4cccc;
+  position: relative;
+  font-weight: 700;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#header .menu li::before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 2px;
+  left: 0;
+  top: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#header .menu li:hover::before {
+  width: 100%;
+}
+
+#header .menu li:hover {
+  color: #fff;
+}
+
+#header .menu button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 35px;
+  background: transparent;
+  border: 2px solid #d4cccc;
+  color: #d4cccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#header .menu button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#discover {
+  background: url(../photo/kai-pilger-mgFzfrrmGKI-unsplash.jpg);
+  background-size: cover;
+}
+
+#discover .into {
+  padding: 180px 0;
+}
+
+#discover .into h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#discover .into .button {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#discover .into .button:hover i {
+  visibility: visible;
+  top: 35%;
+  left: 20px;
+}
+
+#discover .into .button button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  background: #ff6716;
+  font-size: 18px;
+  color: #fff;
+}
+
+#discover .into .button i {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  color: #fff;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#services {
+  margin-top: 120px;
+}
+
+#services .text {
+  padding: 20px 25px;
+}
+
+#services .text p {
+  line-height: 1.8;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+#services .text .button {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#services .text .button:hover i {
+  visibility: visible;
+  top: 35%;
+  left: 20px;
+}
+
+#services .text .button button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  background: transparent;
+  font-size: 18px;
+  color: #ff6716;
+  font-weight: 700;
+}
+
+#services .text .button i {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  color: #ff6716;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#services .text .alt img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#services .text .alt span {
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+#project {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#project .abc {
+  text-align: center;
+  margin: 60px 0;
+}
+
+#project .abc h1 {
+  font-weight: 700;
+}
+
+#project .pro-item {
+  position: relative;
+}
+
+#project .pro-item:hover .text-2 {
+  opacity: .6;
+}
+
+#project .pro-item:hover .text-1 {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+#project .pro-item:hover .text-1 p {
+  visibility: visible;
+}
+
+#project .pro-item .text-1 {
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+  color: #fff;
+  z-index: 100;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#project .pro-item .text-1 p {
+  visibility: hidden;
+}
+
+#project .pro-item .text-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f57002;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#company {
+  height: 100vh;
+}
+
+#company .txt-1 {
+  margin-bottom: 60px;
+}
+
+#company .txt-2 li {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+#company .button {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin: 20px 0;
+}
+
+#company .button:hover i {
+  visibility: visible;
+  top: 35%;
+  left: 20px;
+}
+
+#company .button button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  background: transparent;
+  font-size: 18px;
+  color: #ff6716;
+  font-weight: 700;
+}
+
+#company .button i {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  color: #ff6716;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=stytle.css.map */
